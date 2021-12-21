@@ -1,0 +1,57 @@
+body section article p{
+    font-family: 'Bakbak One', cursive;
+}
+ body {
+     background-color:#031e7c;
+ }
+ nav img{
+     width: 100px;
+     margin-top: 8px;
+    margin-left: 20px;
+ }
+nav {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+ ul li {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 170px;
+    color: #fff;
+    font-size: 20px;
+}
+section{
+    display:flex;
+    flex-direction: column;
+}
+li a i{
+    color: #fff;
+}
+article img{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    float: left; 
+}
+article img{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.a1{
+    margin-left: 240px;
+}
+ footer{
+    position: absolute; 
+    bottom: 0;
+  left: 0;
+  margin-left: 20px;
+  width: 300px;
+}
+
