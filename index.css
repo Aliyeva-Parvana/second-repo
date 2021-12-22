@@ -5,26 +5,25 @@ body section article p{
      background-color:#031e7c;
  }
  nav img{
+     display: flex;
      width: 100px;
      margin-top: 8px;
     margin-left: 20px;
  }
-nav {
+nav  {
     display: flex;
     align-items: center;
 }
 nav ul {
     display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    
+    list-style-type: none;  
 }
- ul li {
-    padding: 10px;
-    margin-right: 20px;
-    margin-left: 170px;
+ ul li a {
+     display:flex;
+    margin-left: 200px;
     color: #fff;
     font-size: 20px;
+    text-decoration: none;
 }
 section{
     display:flex;
@@ -44,7 +43,7 @@ article img{
     margin-left: 10px;
     
 }
-.a1{
+.anasehifesekiller{
     margin-left: 240px;
 }
  footer{
@@ -53,5 +52,6 @@ article img{
   left: 0;
   margin-left: 20px;
   width: 300px;
+  color: #fff;
 }
 
